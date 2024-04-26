@@ -31,4 +31,15 @@ int main(){
     ModifyString(name3);
     PrintString(name3);
     delete[] name3;
+
+    string str = "hello world";
+    cout << str[1] << endl;
+    str[4] = '4';
+    cout << str << endl;
+    cout << str.size() << endl;
+    cout << str.length() << endl;
+    for (int i=0 ; i<str.size() ; ++i){
+        char chr = str[i];
+        cout << chr << endl;
+    }
 }
